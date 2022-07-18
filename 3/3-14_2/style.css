@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+  background-color: #fffeee;
+}
+.container {
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 200px 200px;
+	gap: 10px;
+}
+.item {
+	background-color: #0bd;
+	color: #fff;
+	padding: 10px;
+}
